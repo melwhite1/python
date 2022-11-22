@@ -1,0 +1,64 @@
+Last login: Tue Nov 22 12:10:00 on ttys000
+melissawhite@Melissas-Air ~ % ipython
+Python 3.11.0 (v3.11.0:deaf509e8f, Oct 24 2022, 14:43:23) [Clang 13.0.0 (clang-1300.0.29.30)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.6.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: import pdb
+   ...: recipes_list = []
+   ...: ingredients_list = []
+   ...: 
+   ...: n = int(input("How many recipes would you like to enter?: "))
+   ...: 
+   ...: def take_recipe(name="No name", cooking_time="No cooking time", ingredients="no ingredients", difficulty="no diffculty", recipe="no recipe"):
+   ...:   name = input("Enter the name of your recipe: ")
+   ...:   cooking_time = int(input("Enter the cooking time for your recipe in minutes: "))
+   ...:   ingredients = input("Enter the ingredients for your recipe: ")
+   ...:   recipe = {
+   ...:     'Name' : name,
+   ...:     'Cooking_Time' : cooking_time,
+   ...:     'Ingredients' : ingredients.split(', '),
+   ...:     'Difficulty' : difficulty
+   ...:   }
+   ...:   return recipe
+   ...: 
+   ...: for x in range(n):
+   ...:   recipe = take_recipe()
+   ...:   for ingredient in recipe['Ingredients']:
+   ...:     if ingredient not in ingredients_list:
+   ...:       ingredients_list.append(ingredient)
+   ...:   if int(recipe['Cooking_Time']) < 10:
+   ...:     if len(recipe['Ingredients']) < 4:
+   ...:       difficulty = 'Easy'
+   ...:   if int(recipe['Cooking_Time']) < 10:
+   ...:     if len(recipe['Ingredients']) >= 4:
+   ...:       difficulty = 'Medium'
+   ...:   if int(recipe['Cooking_Time']) >= 10:
+   ...:     if len(recipe['Ingredients']) < 4:
+   ...:       difficulty = 'Intermediate'
+   ...:   if int(recipe['Cooking_Time']) >= 10:
+   ...:     if len(recipe['Ingredients']) >= 4:
+   ...:       difficulty = 'Hard'
+   ...:   recipe['Difficulty'] = difficulty
+   ...:   recipes_list.append(recipe)
+   ...: 
+How many recipes would you like to enter?: 3
+Enter the name of your recipe: tea
+Enter the cooking time for your recipe in minutes: 3
+Enter the ingredients for your recipe: tea, water
+Enter the name of your recipe: latte
+Enter the cooking time for your recipe in minutes: 5
+Enter the ingredients for your recipe: coffee, water, milk, sugar
+Enter the name of your recipe: cookies
+Enter the cooking time for your recipe in minutes: 20
+Enter the ingredients for your recipe: flour, sugar, butter, eggs, baking soda
+
+In [2]: print(recipes_list)
+[{'Name': 'tea', 'Cooking_Time': 3, 'Ingredients': ['tea', 'water'], 'Difficulty': 'Easy'}, {'Name': 'latte', 'Cooking_Time': 5, 'Ingredients': ['coffee', 'water', 'milk', 'sugar'], 'Difficulty': 'Medium'}, {'Name': 'cookies', 'Cooking_Time': 20, 'Ingredients': ['flour', 'sugar', 'butter', 'eggs', 'baking soda'], 'Difficulty': 'Hard'}]
+
+In [3]: ingredients_list.sort()
+
+In [4]: print(ingredients_list)
+['baking soda', 'butter', 'coffee', 'eggs', 'flour', 'milk', 'sugar', 'tea', 'water']
+
+In [5]: 
