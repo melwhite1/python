@@ -1,0 +1,73 @@
+Enter the name of the file that contains your recipe data (including the .bin extension): all_recipes.bin
+An unexpected error occurred.
+Data from finally:  {'recipes_list': [], 'all_ingredients': []}
+Recipes list from finally:  []
+Ingredient list from finally:  []
+Please specify how many recipes you want to enter: 3
+
+Name of the recipe: Tea
+Cooking time (minutes): 5
+Enter the ingredients for your recipe: tea leaves, water
+Run the calc_difficulty with:  5 tea leaves, water
+Difficulty level:  Medium
+Recipe dictionary:  {'name': 'Tea', 'cooking_time': 5, 'recipe_ingredients': ['tea leaves', 'water'], 'difficulty': 'Medium'}
+
+Recipe:  Tea
+Cooking Time (min):  5
+Ingredients: 
+tea leaves
+water
+Run the calc_difficulty with:  5 ['tea leaves', 'water']
+Difficulty level:  Easy
+
+Name of the recipe: Cookies
+Cooking time (minutes): 20
+Enter the ingredients for your recipe: flour, sugar, salt, butter, baking powder, chocolate chips
+Run the calc_difficulty with:  20 flour, sugar, salt, butter, baking powder, chocolate chips
+Difficulty level:  Hard
+Recipe dictionary:  {'name': 'Cookies', 'cooking_time': 20, 'recipe_ingredients': ['flour', 'sugar', 'salt', 'butter', 'baking powder', 'chocolate chips'], 'difficulty': 'Hard'}
+
+Recipe:  Cookies
+Cooking Time (min):  20
+Ingredients: 
+flour
+sugar
+salt
+butter
+baking powder
+chocolate chips
+Run the calc_difficulty with:  20 ['flour', 'sugar', 'salt', 'butter', 'baking powder', 'chocolate chips']
+Difficulty level:  Hard
+
+Name of the recipe: Latte
+Cooking time (minutes): 5
+Enter the ingredients for your recipe: coffee, milk, sugar, cinnamon
+Run the calc_difficulty with:  5 coffee, milk, sugar, cinnamon
+Difficulty level:  Medium
+Recipe dictionary:  {'name': 'Latte', 'cooking_time': 5, 'recipe_ingredients': ['coffee', 'milk', 'sugar', 'cinnamon'], 'difficulty': 'Medium'}
+
+Recipe:  Latte
+Cooking Time (min):  5
+Ingredients: 
+coffee
+milk
+sugar
+cinnamon
+Run the calc_difficulty with:  5 ['coffee', 'milk', 'sugar', 'cinnamon']
+Difficulty level:  Medium
+
+
+Ingredients Available Accross All Recipies: 
+--------------------------------------------
+baking powder
+butter
+chocolate chips
+cinnamon
+coffee
+flour
+milk
+salt
+sugar
+tea leaves
+water
+Data from the data variable:  {'recipes_list': [{'name': 'Tea', 'cooking_time': 5, 'recipe_ingredients': ['tea leaves', 'water'], 'difficulty': 'Medium'}, {'name': 'Cookies', 'cooking_time': 20, 'recipe_ingredients': ['flour', 'sugar', 'salt', 'butter', 'baking powder', 'chocolate chips'], 'difficulty': 'Hard'}, {'name': 'Latte', 'cooking_time': 5, 'recipe_ingredients': ['coffee', 'milk', 'sugar', 'cinnamon'], 'difficulty': 'Medium'}], 'all_ingredients': ['baking powder', 'butter', 'chocolate chips', 'cinnamon', 'coffee', 'flour', 'milk', 'salt', 'sugar', 'tea leaves', 'water']}

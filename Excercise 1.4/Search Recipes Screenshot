@@ -1,0 +1,41 @@
+Enter the name of the file that contains your recipe data (including the .bin extension): all_recipes.bin
+1. baking powder
+2. butter
+3. chocolate chips
+4. cinnamon
+5. coffee
+6. flour
+7. milk
+8. salt
+9. sugar
+10. tea leaves
+11. water
+Enter the number corresponding to the ingredient you want to select from the above list: 9
+
+You selected the ingredient:  sugar
+
+The following recipe includes the searched ingredient:
+------------------------------------------------------
+
+Recipe:  Cookies
+Cooking Time (minutes):  20
+Ingredients: 
+flour
+sugar
+salt
+butter
+baking powder
+chocolate chips
+Difficulty level:  Hard
+
+The following recipe includes the searched ingredient:
+------------------------------------------------------
+
+Recipe:  Latte
+Cooking Time (minutes):  5
+Ingredients: 
+coffee
+milk
+sugar
+cinnamon
+Difficulty level:  Medium
