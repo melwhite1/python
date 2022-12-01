@@ -1,0 +1,135 @@
+------------- 
+Recipes list: 
+------------- 
+
+Name: Tea
+Cooking time (minutes): 5
+Difficulty: Easy
+Ingredients:
+------------ 
+- Tea Leaves
+- Sugar
+- Water
+
+
+Name: Coffee
+Cooking time (minutes): 5
+Difficulty: Easy
+Ingredients:
+------------ 
+- Coffee Powder
+- Sugar
+- Water
+
+
+Name: Cake
+Cooking time (minutes): 50
+Difficulty: Hard
+Ingredients:
+------------ 
+- Sugar
+- Butter
+- Eggs
+- Vanilla Essence
+- Flour
+- Baking Powder
+- Milk
+
+
+Name: Banana Smoothie
+Cooking time (minutes): 5
+Difficulty: Medium
+Ingredients:
+------------ 
+- Bananas
+- Milk
+- Peanut Butter
+- Sugar
+- Ice Cubes
+
+------------------------------------- 
+Results for recipe_search with Water: 
+------------------------------------- 
+
+Name: Tea
+Cooking time (minutes): 5
+Difficulty: Easy
+Ingredients:
+------------ 
+- Tea Leaves
+- Sugar
+- Water
+
+
+Name: Coffee
+Cooking time (minutes): 5
+Difficulty: Easy
+Ingredients:
+------------ 
+- Coffee Powder
+- Sugar
+- Water
+
+------------------------------------- 
+Results for recipe_search with Sugar: 
+------------------------------------- 
+
+Name: Tea
+Cooking time (minutes): 5
+Difficulty: Easy
+Ingredients:
+------------ 
+- Tea Leaves
+- Sugar
+- Water
+
+
+Name: Coffee
+Cooking time (minutes): 5
+Difficulty: Easy
+Ingredients:
+------------ 
+- Coffee Powder
+- Sugar
+- Water
+
+
+Name: Cake
+Cooking time (minutes): 50
+Difficulty: Hard
+Ingredients:
+------------ 
+- Sugar
+- Butter
+- Eggs
+- Vanilla Essence
+- Flour
+- Baking Powder
+- Milk
+
+
+Name: Banana Smoothie
+Cooking time (minutes): 5
+Difficulty: Medium
+Ingredients:
+------------ 
+- Bananas
+- Milk
+- Peanut Butter
+- Sugar
+- Ice Cubes
+
+--------------------------------------- 
+Results for recipe_search with Bananas: 
+--------------------------------------- 
+
+Name: Banana Smoothie
+Cooking time (minutes): 5
+Difficulty: Medium
+Ingredients:
+------------ 
+- Bananas
+- Milk
+- Peanut Butter
+- Sugar
+- Ice Cubes
